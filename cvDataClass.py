@@ -1,6 +1,12 @@
+# --------------------------------------------------------------
+# Creation:    07/05/2023
+# Author:      Hugo REIF FAUDEMER
+# --------------------------------------------------------------
 import yaml
 from typing import List, Dict, Any
 
+
+# =================== CLASSES ===================
 class CVData:
     """
     A class to handle operations related to Curriculum Vitae (CV) data stored in a YAML file.
@@ -82,10 +88,10 @@ class CVData:
         return [link['url'] for link in self.data.get('cv', {}).get('social_links', [])]
 
 # Usage
-cv = CVData('template.yml')
-print(cv.get_personal_info())
-print(cv.get_work_experience())
-print(cv.get_education())
-print(cv.get_personal_projects())
-print(cv.get_skills())
-print(cv.get_social_links())
+# cv = CVData('template.yml')
+# print(cv.get_personal_info())
+# print(cv.get_work_experience())
+# print(cv.get_education())
+# print(cv.get_personal_projects())
+# print(cv.get_skills())
+# print(cv.get_social_links())
