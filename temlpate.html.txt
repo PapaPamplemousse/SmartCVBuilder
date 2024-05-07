@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Modern CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <div class="profile-photo">
+        <div class="profile-photo">
+        <img src="your-photo.jpg" alt="Your Name" onerror="this.style.display='none'">
+</div>
+
+    </div>
+    <div class="profile-info">
+        <h1>Your Name</h1>
+        <p>Embedded Software Engineer | <a href="mailto:you@example.com">you@example.com</a></p>
+    </div>
+</header>
+
+    <section class="experience">
+    <h2>Experience</h2>
+    <article>
+        <h3>Job Position - <span class="company">Company Name</span></h3>
+        <p class="subdetails">Dates of Employment</p>
+        <p>Description of the role, focusing on key responsibilities and technologies used.</p>
+        <div class="project">
+            <h4>Project Name</h4>
+            <p><strong>Client:</strong> Client Name</p>
+            <p>Brief description of the project, focusing on your contributions and the technologies involved.</p>
+        </div>
+        <!-- Repeat the <div class="project"> for other projects -->
+    </article>
+    <!-- Additional job entries can be added similarly -->
+</section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <!-- Example Entry -->
+        <article>
+            <h3>Degree</h3>
+            <p class="subdetails">University Name - Dates</p>
+            <p>Brief description of studies.</p>
+        </article>
+    </section>
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Other Relevant Skills</li>
+        </ul>
+    </section>
+    <footer>
+        <p>Find me on <a href="https://www.linkedin.com">LinkedIn</a></p>
+    </footer>
+</body>
+</html>

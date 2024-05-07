@@ -1,0 +1,141 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #eef1f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, section, footer {
+    width: 90%;
+    max-width: 960px;
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.profile-photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid #007BFF;
+}
+
+.profile-info h1 {
+    margin: 0;
+    color: #007BFF;
+}
+
+.subdetails {
+    font-style: italic;
+    color: #666;
+}
+
+.project {
+    margin-top: 10px;
+    border-left: 4px solid #007BFF;
+    padding-left: 10px;
+}
+
+.project h4 {
+    margin-top: 0;
+    color: #333;
+}
+
+.project p {
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+a {
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+@media (min-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+}
+
+/* Additional Styling for Tech Look */
+section h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    color: #333;
+}
+
+article {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+}
+
+
+
+
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 2px; /* Épaisseur du trait vertical */
+    height: 100px; /* Hauteur du trait, ajustez selon le besoin */
+    background-color: #007BFF; /* Couleur du trait */
+    margin-right: 20px; /* Espace entre le trait et le texte */
+}
+
+.profile-photo img {
+    display: block;
+    width: 100px; /* Taille standard de la photo */
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ccc; /* Un fond en cas de photo manquante, facultatif */
+}
+
+/* Si img est vide, on masque img et on montre le trait */
+.profile-photo img:empty {
+    display: none;
+}
+
+.profile-info h1 {
+    margin: 0;
+    color: #333;
+}
+
+.profile-info p {
+    margin: 1px 0;
+    color: #666;
+}
