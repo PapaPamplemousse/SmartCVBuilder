@@ -1,0 +1,219 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #eef1f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, section, footer {
+    width: 90%;
+    max-width: 960px;
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.profile-photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid #007BFF;
+}
+
+.profile-info h1 {
+    margin: 0;
+    color: #007BFF;
+}
+
+.subdetails {
+    font-style: italic;
+    color: #666;
+}
+
+.project {
+    margin-top: 10px;
+    border-left: 4px solid #007BFF;
+    padding-left: 10px;
+}
+
+.project h4 {
+    margin-top: 0;
+    color: #333;
+}
+
+.project p {
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: #333;
+}
+
+.project article {
+    margin-top: 15px;
+    padding: 10px;
+    border-left: 5px solid #007BFF;
+    background-color: #f4f4f4;
+}
+
+a {
+    color: #007BFF;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+@media (min-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    header {
+        justify-content: space-between;
+    }
+}
+
+/* Additional Styling for Tech Look */
+section h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    color: #333;
+}
+
+article {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Assurez-vous que l'espace est correctement utilisé */
+    padding: 20px; /* Ajoute un peu d'espace */
+    background: #fff; /* Couleur de fond pour l'en-tête */
+}
+
+.profile-photo {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    border-radius: 50%;
+    overflow: hidden; /* S'assure que rien ne dépasse du cercle */
+    background-color: transparent; /* Enlève le fond bleu si l'image est présente */
+}
+
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover; /* Assure que l'image couvre tout l'espace disponible */
+}
+
+.profile-info {
+    flex: 1; /* Utilise l'espace restant */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centre verticalement le texte dans la partie restante */
+}
+
+.profile-info h1, .profile-info p {
+    margin: 0; /* Enlève les marges par défaut */
+}
+
+.profile-info h1 {
+    color: #007BFF; /* Utilise la couleur de marque pour le nom */
+    font-size: 24px; /* Augmente un peu la taille de la police */
+}
+
+.profile-info p {
+    color: #666; /* Couleur plus douce pour les détails */
+    font-size: 16px; /* Taille appropriée pour les sous-titres */
+}
+
+
+
+.projects-achievements {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+.projects-achievements h2 {
+    /* color: #007BFF; */
+    margin-bottom: 10px;
+}
+
+.projects-achievements article {
+    margin-top: 15px;
+    padding: 10px;
+    border-left: 5px solid #007BFF;
+    background-color: #f4f4f4;
+}
+
+.projects-achievements h3 {
+    margin-top: 0;
+}
+
+.projects-achievements p {
+    font-size: 0.9em;
+    line-height: 1.4;
+    /* color: #333; */
+}
+
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.sidebar {
+    flex: 0 0 200px; /* Largeur fixe pour la sidebar */
+    padding: 20px;
+}
+
+.main-content {
+    flex: 1; /* Prend le reste de l'espace disponible */
+    padding: 20px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
