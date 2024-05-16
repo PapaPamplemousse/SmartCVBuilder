@@ -1,7 +1,36 @@
-# --------------------------------------------------------------
-# Creation:    07/05/2023
-# Author:      Hugo REIF FAUDEMER
-# --------------------------------------------------------------
+"""
+SmartCVBuilder Script
+======================
+
+Author: Hugo REIF FAUDEMER
+Creation Date: 07/05/2023
+Purpose: This script generates a SmartCV in HTML format using provided CV data. The script initializes the HTML structure, adds personal information, and outputs the final HTML content to a file.
+
+Description
+-----------
+
+This script is designed to create a professional CV in HTML format. It takes in various sections of a CV, such as personal information, skills, work experience, education, and projects, and compiles them into a well-structured HTML document. The HTML content is styled using an external CSS file.
+
+Modules and Functions
+---------------------
+
+- `init_html_structure(css_file)`: Initializes the HTML structure with basic HTML tags and includes a CSS file for styling.
+- `add_content_to_page(content)`: Appends HTML content to the global HTML content variable.
+- `adding_profile_content(personal_info)`: Adds personal profile information to the HTML content, including name, job title, email, phone number, and photo.
+- `generate_html(cv, css_file)`: Main function that generates the complete HTML CV by combining all sections and writing the final HTML to a file.
+- `to continue`:....
+Global Variables
+----------------
+
+- `G_HTML_CONTENT`: A string containing the entire HTML page to be created.
+- `G_CONFIG_HTML`: A dictionary configuring HTML generation settings, such as page size, margin, encoding, and local file access.
+
+Usage
+-----
+
+To use this script, create an instance of `CVData` with the necessary CV information and call the `generate_html` function with the instance and the path to the CSS file.
+
+"""
 import sys
 from cvDataClass import CVData
 
