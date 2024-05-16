@@ -61,7 +61,8 @@ SmartCVBuilder/
 - **cvDataClass.py**: Defines the `CVData` class to handle operations related to CV data stored in a YAML file.
 - **cvMain.py**: The main entry point for the script, orchestrating the generation process.
 - **requirements.txt**: Lists the dependencies required for the project.
-- **templates/**: Contains example YAML and CSS templates.
+- **styles/**: Contains somme different css to build project with.
+- **templates/**: Contains example YAML and JPG templates.
 
 ## Configuration
 
@@ -100,7 +101,7 @@ G_CONFIG_PDF = {
 }
 ```
 
-## Mermaid Diagram
+## Process flow 
 
 Here is a Mermaid diagram to visualize the process flow of SmartCVBuilder:
 
