@@ -81,7 +81,7 @@ G_CONFIG_PDF = {
 
 # =================== MAIN ===================
 if __name__ == "__main__":
-    yaml_file = sys.argv[1] if len(sys.argv) > 1 else 'template.yml'
-    css_file = sys.argv[2] if len(sys.argv) > 2 else 'template.css'
+    yaml_file = sys.argv[1] if len(sys.argv) > 1 else './template/template.yml'
+    css_file = sys.argv[2] if len(sys.argv) > 2 else './styles/style01.css'
     cv = CVData(yaml_file)
     generate_html(cv, css_file)
