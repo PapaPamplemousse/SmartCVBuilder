@@ -8,7 +8,7 @@ SmartCVBuilder is an open-source Python project designed to generate professiona
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Configuration](#configuration)
-- [Mermaid Diagram](#mermaid-diagram)
+- [Mermaid Diagram](#process-flow)
 - [License](#license)
 
 
