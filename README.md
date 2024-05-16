@@ -8,7 +8,7 @@ SmartCVBuilder is an open-source Python project designed to generate professiona
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Configuration](#configuration)
-- [Mermaid Diagram](#process-flow)
+- [Process Flow](#process-flow)
 - [License](#license)
 
 
@@ -101,7 +101,7 @@ G_CONFIG_PDF = {
 }
 ```
 
-## Process flow 
+## Process Flow 
 
 Here is a Mermaid diagram to visualize the process flow of SmartCVBuilder:
 
