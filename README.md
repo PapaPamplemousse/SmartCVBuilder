@@ -45,10 +45,11 @@ The project is organized as follows:
 
 ```plaintext
 SmartCVBuilder/
-├── cvBuilder.py
-├── cvDataClass.py
-├── cvMain.py
 ├── README.md
+└── package/
+    ├── cvBuilder.py
+    ├── cvDataClass.py
+    ├── cvMain.py
 └── styles/
     ├── style01.css
     ├── etc
