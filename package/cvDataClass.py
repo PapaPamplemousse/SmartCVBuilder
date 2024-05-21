@@ -117,6 +117,15 @@ class CVData:
         :rtype: List[str]
         """
         return [skill['skill'] for skill in self.data.get('cv', {}).get('skills', [])]
+    
+    def get_hobbies(self) -> List[str]:
+        """
+        Retrieves a list of hobbies from the CV.
+
+        :return: A list of hobbies names.
+        :rtype: List[str]
+        """
+        return [hobbie['hobbie'] for hobbie in self.data.get('cv', {}).get('hobbies', [])]
 
     def get_social_links(self) -> List[str]:
         """
