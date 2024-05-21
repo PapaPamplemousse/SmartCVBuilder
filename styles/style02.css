@@ -1,0 +1,158 @@
+/* Style for the entire document */
+@page {
+    size: A4;
+    margin: 0;
+}
+
+html, body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    width: 210mm;
+    height: 297mm;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+.container {
+    display: flex;
+    width: 100%;
+    height: calc(100% - 220px); /* Adjust based on header height */
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20mm;
+    box-sizing: border-box;
+}
+
+/* Header and Profile section */
+header {
+    background-color: #b3cde0;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.profile-info h1 {
+    margin-top: 10px;
+    font-size: 2.5em;
+}
+
+.profile-info p {
+    font-size: 1.2em;
+}
+
+/* Sidebar styles */
+.sidebar {
+    background-color: #d1e5f0;
+    width: 25%;
+    padding: 20px;
+    border-right: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+
+.skills, .hobbies {
+    margin-bottom: 20px;
+}
+
+.skills h2, .hobbies h2 {
+    border-bottom: 2px solid #6497b1;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.skills ul, .hobbies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li, .hobbies ul li {
+    background-color: #b3cde0;
+    color: #333;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+/* Main content styles */
+.main-content {
+    width: 75%;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.experience, .education, .projects-achievements {
+    margin-bottom: 20px;
+}
+
+.experience h2, .education h2, .projects-achievements h2 {
+    border-bottom: 2px solid #6497b1;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.article {
+    margin-bottom: 20px;
+}
+
+.article h3 {
+    font-size: 1.5em;
+    color: #6497b1;
+}
+
+.article p.subdetails {
+    font-size: 1em;
+    color: #999;
+}
+
+.article p {
+    margin-top: 5px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.project {
+    margin-top: 10px;
+}
+
+.project h4 {
+    font-size: 1.2em;
+    color: #6497b1;
+}
+
+.project p {
+    margin-top: 5px;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+a {
+    color: #6497b1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
