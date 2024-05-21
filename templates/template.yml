@@ -1,0 +1,52 @@
+cv:
+  personal_info:
+    name: "Your Name"
+    photo_url: "../templates/template.jpg"
+    job: "Embedded Software Engineer"
+    email: "your.email@example.com"
+    phone_number: "06 xx xx xx xx"
+    
+  work_experience:
+    - job_title: "Job Title"
+      company_name: "Company Name"
+      employment_dates_start: "YYYY"
+      employment_dates_end: "YYYY"
+      job_description: "Detailed description of the position."
+      projects:
+        - project_name: "Project Name"
+          client: "Client"
+          project_description: "Description of the project."
+        - project_name: "Project Name 2"
+          client: "Client 2"
+          project_description: "Description of the project."
+    - job_title : "Job Title 2"
+      company_name: "Company Name"
+      employment_dates_start: "YYYY"
+      employment_dates_end: "YYYY"
+      job_description: "Detailed description of the position."
+
+  education:
+    - degree: "Degree Obtained"
+      university_name: "University Name"
+      attendance_dates_start: "YYYY"
+      attendance_dates_end: "YYYY"
+      study_description: "Description of studies and specializations."
+
+  personal_projects:
+    - project_title: "Project Title"
+      project_description: "Description of the project."
+      project_link: "Project URL"
+
+  skills:
+    - skill: "Skill 1"
+    - skill: "Skill 2"
+    - skill: "Skill 3"
+
+  hobbies:
+    - hobbie: "Hobby 1"
+    - hobbie: "Hobby 2"
+    - hobbie: "Hobby 3"
+
+  social_links:
+    - url: "LinkedIn Profile URL"
+    - url: "Other Social Profile URL"
