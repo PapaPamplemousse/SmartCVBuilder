@@ -5,8 +5,8 @@
 }
 
 html, body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f7f7f7;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
     color: #333;
@@ -23,55 +23,69 @@ h1, h2, h3, h4, p {
 .container {
     display: flex;
     width: 100%;
-    height: calc(100% - 220px); /* Adjust based on header height */
+    height: calc(100% - 160px); /* Adjust based on header height */
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     padding: 20mm;
     box-sizing: border-box;
-    margin-left: -10mm; /* Adjust this value to shift left */
 }
 
 /* Header and Profile section */
 header {
-    background-color: #b3cde0;
+    background: linear-gradient(to right, #ffb3ba, #ffdfba); /* Pastel gradient */
     padding: 20px;
     color: #fff;
-    text-align: center;
     width: 100%;
     box-sizing: border-box;
-    margin-left: -10mm;
+    display: flex;
+    align-items: center;
 }
 
 .profile {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    width: 100%;
+}
+
+.profile-photo {
+    flex-shrink: 0;
+    margin-right: 20px;
 }
 
 .profile-photo img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
+    border: 5px solid #fff;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .profile-info h1 {
-    margin-top: 10px;
-    font-size: 2.5em;
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .profile-info p {
-    font-size: 1.2em;
+    font-size: 1.1em;
+    margin: 5px 0;
 }
 
 /* Sidebar styles */
 .sidebar {
-    background-color: #d1e5f0;
-    width: 25%;
+    background-color: #f9f9f9;
+    width: 30%;
     padding: 20px;
     border-right: 1px solid #e0e0e0;
     box-sizing: border-box;
+    margin-left: -20mm;
 }
 
 .skills, .hobbies {
@@ -79,9 +93,10 @@ header {
 }
 
 .skills h2, .hobbies h2 {
-    border-bottom: 2px solid #6497b1;
+    color: #ffb3ba;
     padding-bottom: 5px;
     margin-bottom: 10px;
+    border-bottom: 2px solid #ffb3ba;
 }
 
 .skills ul, .hobbies ul {
@@ -90,7 +105,7 @@ header {
 }
 
 .skills ul li, .hobbies ul li {
-    background-color: #b3cde0;
+    background-color: #ffdfba; /* Pastel color for list items */
     color: #333;
     padding: 8px;
     margin-bottom: 5px;
@@ -99,7 +114,7 @@ header {
 
 /* Main content styles */
 .main-content {
-    width: 75%;
+    width: 70%;
     padding: 20px;
     box-sizing: border-box;
     overflow: auto;
@@ -110,9 +125,10 @@ header {
 }
 
 .experience h2, .education h2, .projects-achievements h2 {
-    border-bottom: 2px solid #6497b1;
+    color: #ffb3ba;
     padding-bottom: 5px;
     margin-bottom: 10px;
+    border-bottom: 2px solid #ffb3ba;
 }
 
 .article {
@@ -121,7 +137,7 @@ header {
 
 .article h3 {
     font-size: 1.5em;
-    color: #6497b1;
+    color: #ffb3ba;
 }
 
 .article p.subdetails {
@@ -139,23 +155,14 @@ header {
 .project {
     margin-top: 10px;
     padding: 10px;
-    background-color: #f0f9ff;
-    border-left: 5px solid #6497b1;
+    background-color: #fff8e1; /* Light pastel background */
+    border-left: 5px solid #ffdfba; /* Pastel border */
     border-radius: 5px;
     position: relative;
     margin-bottom: 10px;
 }
 
-.project::before {
-    position: absolute;
-    top: 10px;
-    left: -30px;
-    font-size: 24px;
-    color: #6497b1;
-}
-
 .project h4 {
-    
     font-size: 1.2em;
     color: #333;
     margin-bottom: 5px;
@@ -168,7 +175,7 @@ header {
 }
 
 a {
-    color: #6497b1;
+    color: #ffb3ba;
     text-decoration: none;
 }
 
